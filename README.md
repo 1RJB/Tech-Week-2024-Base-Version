@@ -15,12 +15,10 @@ Packages used:
 
     
 # Steps to setup
-  - Create a virtual environment 
-
-python -m venv myenv
-
-  - Install flask
-  - Install mongodb
-  - Install flask-pymongo
-    
-**Install the above packages using "pip install -r requirements.txt"**
+  - Install MongoDB
+  - Create a virtual environment using "python -m venv myenv" and connect to the venv Python interpreter
+  - Install the below packages using "pip install -r requirements.txt", or manually install each:
+    - Install flask
+    - Install flask-pymongo
+  - Create connection and connect MongoDB database through VSCode's extension
+  - Run "python app.py"
